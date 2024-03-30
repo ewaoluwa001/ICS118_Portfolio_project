@@ -13,9 +13,11 @@
   <main>
     <header>
 	  <nav id="top">
-	    <a href="#top"><h1>Ewaoluwa Israel</h1></a>
+	    <a href="#showcase "><h1>Ewaoluwa Israel</h1></a>
 	  </nav>
-	  <nav>
+	  <nav id="menu">
+	    <label for="toggle">Menu &#9776;</label>
+        <input type="checkbox" id="toggle">
 	    <ul class="headnav">
 		  <a href="#skills"><li>skills</li></a>
 		  <a href="#port"><li>Portfolio</li></a>
@@ -115,13 +117,13 @@
 	  <h3>Learn about me, where I come from and what drives me</h3>
 	  
 	  <div class="aboutcontainer aboutleft">
-	    <div class="aboutdesc">
+	    <div class="aboutdesc item">
 		  <h4>2006-2023</h4>
 		  <h4>A life Long Desire to create</h4>
 		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 		  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
-		<div class="aboutimage">
+		<div class="aboutimage item">
 		  <!-- Photo by https://unsplash.com/photos/a-person-standing-on-a-moss-covered-rock-in-the-woods-wjTyLvCKwis !--> 
 		  <img src="IMAGES/about1.jpg" alt="">
 		</div>
@@ -141,13 +143,13 @@
 	  </div>
 	  
 	  <div class="aboutcontainer aboutleft">
-	    <div class="aboutdesc">
+	    <div class="aboutdesc item">
 		  <h4>2006-2023</h4>
 		  <h4>Commencement of the dream</h4>
 		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 		  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
-		<div class="aboutimage">
+		<div class="aboutimage item">
 		 <!-- Photo by https://unsplash.com/photos/a-person-diving-into-the-water-from-a-boat-55UHPGrgJGE !--> 
 		  <img src="IMAGES/about3.jpg" alt="">
 		</div>
@@ -187,18 +189,24 @@
 			<li>Victoria,BC</li>
 		  </ul>
 		  <ul id="cvlogo">
-		    <span class="fa-stack fa-2x">
-        <i class="fa-solid fa-camera fa-stack-1x"></i>
-        <i class="fa-solid fa-ban fa-stack-2x" style="color:Tomato"></i>
-        </span>
-		<span class="fa-stack fa-2x">
-        <i class="fa-solid fa-camera fa-stack-1x"></i>
-        <i class="fa-solid fa-ban fa-stack-2x" style="color:Tomato"></i>
-        </span>
-		<span class="fa-stack fa-2x">
-        <i class="fa-solid fa-camera fa-stack-1x"></i>
-        <i class="fa-solid fa-ban fa-stack-2x" style="color:Tomato"></i>
-        </span>
+		    <li>
+		      <span class="fa-stack fa-2x">
+                <i class="fa-solid fa-camera fa-stack-1x"></i>
+                <i class="fa-solid fa-ban fa-stack-2x" style="color:Tomato"></i>
+              </span>
+			</li>
+			<li>
+		      <span class="fa-stack fa-2x">
+                <i class="fa-solid fa-camera fa-stack-1x"></i>
+                <i class="fa-solid fa-ban fa-stack-2x" style="color:Tomato"></i>
+              </span>
+			</li>
+			<li>
+		      <span class="fa-stack fa-2x">
+                <i class="fa-solid fa-camera fa-stack-1x"></i>
+                <i class="fa-solid fa-ban fa-stack-2x" style="color:Tomato"></i>
+              </span>
+			</li>
 		  </ul>
 		  <h5>Technical Skills</h5>
 		  <ul class="cvlefttext">
@@ -251,6 +259,50 @@
 		</div>
 	  </div>
 	</section>
+	
+	<section id="contact">
+	  <h2>CONTACT ME</h2>
+	  <h3>Interested if I am the best fit for your team? Fill in the form and I will respond in 24-48 hours.</h3>
+	  
+	  <form class="contactcontainer" action="https://118.compsci.cc/submit-form/" method="post">
+	    <div class="fill">
+	    <div id="contactleft">
+		  <input id="name" name="full_name" type="text" placeholder="YOUR NAME*" required>
+		  <input id="email" name="email" type="email" placeholder="YOUR EMAIL*" required>
+		  <input id="phone" name="telphone" type="tel" placeholder="YOUR PHONE NUMBER*" required>
+		</div>
+		
+		<div id="contactright">
+		  <textarea id="text" name="message" placeholder="YOUR MESSAGE*" rows="5" cols="50" required></textarea>
+		</div>
+		</div>
+		<button id="button" type="submit">SEND MESSAGE</button>
+	  </form>
+	</section>
+	
+	<footer id="foot">
+	  <p id="foottext">Copyright &copy Ewaoluwa Oladunjoye; 2024</p>
+	  <ul id="footlogo">
+	    <li>
+		      <span class="fa-stack fa-2x">
+                <i class="fa-solid fa-camera fa-stack-1x"></i>
+                <i class="fa-solid fa-ban fa-stack-2x" style="color:Tomato"></i>
+              </span>
+			</li>
+			<li>
+		      <span class="fa-stack fa-2x">
+                <i class="fa-solid fa-camera fa-stack-1x"></i>
+                <i class="fa-solid fa-ban fa-stack-2x" style="color:Tomato"></i>
+              </span>
+			</li>
+			<li>
+		      <span class="fa-stack fa-2x">
+                <i class="fa-solid fa-camera fa-stack-1x"></i>
+                <i class="fa-solid fa-ban fa-stack-2x" style="color:Tomato"></i>
+              </span>
+			</li>
+	  </ul>
+	</footer>
   </main>
 
   </body>
