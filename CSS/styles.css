@@ -589,7 +589,7 @@ header{
 	padding-right: 10px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1000px) {
     /* Styles for screens wider than 1023px (typically desktops) */
 
 header{
@@ -597,7 +597,7 @@ header{
 	background-color: #223B55;
 	top: 0;
 	width: 100%;
-	padding: 5px;
+	padding: initial;
 	border-bottom: 3px solid #ffcob;
 	padding: 15px;
 	margin-right: auto;
@@ -621,8 +621,8 @@ header{
 }
 
 #menu{
-	text-align: center;
-    line-height: 70px;
+	text-align: initial;
+    line-height: initial;
 }
 
 .headnav{
@@ -663,7 +663,7 @@ header{
 	display: flex;
 	height: 100vh;
 	width: 100%;
-	padding: 5px;
+	padding: initial;
     justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -678,7 +678,7 @@ header{
 #showcase>h2{
 	color: #FFFFFF;
 	font-size: 50px;
-	text-align: center;
+	text-align: initial;
 }
 
 #showcase>a{
@@ -708,21 +708,21 @@ header{
 	margin: 10px;
 	padding-top: 75px;
 	position: relative;
-	width: 100%;
+	width: initial;
 }
 
 #skills>h3{
 	margin-bottom: 20px;
 	font-size: 20px;
 	color: #000000;
-	text-align: center;
+	text-align: initial;
 }
 
 #skillss>h2{
 	font-size: 50px;
 	padding-top: 5px;
 	color: #000000;
-	text-align: center;
+	text-align: initial;
 }
 
 #skills>div>div>span{
@@ -752,7 +752,7 @@ header{
 }
 
 .skillsinfo>p{
-	text-align: left;
+	text-align: center;
 	font-size: 20px;
 }
 /*This is the portfolio section*/
@@ -772,14 +772,14 @@ header{
 	margin-bottom: 20px;
 	font-size: 20px;
 	color: #000000;
-	text-align: center;
+	text-align: initial;
 }
 
 #port>h2{
 	font-size: 50px;
 	padding-top: 2px;
 	color: #000000;
-	text-align: center;
+	text-align: initial;
 }
 
 /* I started designing the boxes from here*/
@@ -836,21 +836,20 @@ header{
 	padding-top: 75px;
 	position: relative;
 	color: #000000;
-	width: 100%;
+	width: initial;
 }
 
 #about>h3{
 	margin-bottom: 20px;
 	font-size: 20px;
-	color: #000000;
-	text-align: center;
+	text-align: initial;
 }
 
 #about>h2{
 	font-size: 50px;
 	padding-top: 2px;
 	color: #000000;
-	text-align: center;
+	text-align: initial;
 }
 
 .aboutcontainer{
@@ -872,7 +871,7 @@ header{
 }
 
 .item:nth-child(1) {
-    order: 2; 
+    order: initial; 
 }
 
 .aboutleft {
@@ -894,10 +893,9 @@ header{
 }
 
 .aboutdesc{
-	text-align: right;
 	margin: 10px;
 	width: 500px;
-	text-align: left;
+	text-align: right;
 }
 
 .aboutdescl{
@@ -923,7 +921,6 @@ header{
 	color: #000000;
 	background-color: #E8E8E8;
 	padding-top: 75px;
-	padding: 5px;
 	width: 100%;
 }
 
@@ -938,12 +935,11 @@ header{
 	font-size: 50px;
 	padding-top: 2px;
 	color: #000000;
-	text-align: center;
 }
 
 .cvcontainer{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
     margin-top: 20px;
 	width: 100%;
 	align-items: center;
@@ -962,7 +958,6 @@ header{
 .cvleft>h2,
 .cvleft>ul{
 	margin-bottom: 10px;
-	text-align: center;
 }
 
 .cvleft ul{
@@ -998,18 +993,18 @@ header{
 	justify-content: center;
 	width: 60%;
 	margin-right: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 130px;
 }
 
 .cvright h3{
 	font-weight: bold;
 	font-size: 30px;
 	margin-bottom: 10px;
-	text-align: center;
+	text-align: initial;
 }
 
 .cvright{
-	text-align: center;
+	text-align: initial;
 }
 
 .cvright>dl>dt{
@@ -1035,15 +1030,14 @@ header{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	padding: 5px;
-	width: 100%;
+	padding: initial;
+	width: initial;
 }
 
 #contact>h3{
 	font-size: 20px;
 	color: #FFFFFF;
 	 text-shadow: 3px 2px 3px #000000;
-	 text-align: center;
 }
 
 #contact>h2{
@@ -1051,7 +1045,6 @@ header{
 	padding-top: 2px;
 	color: #FFFFFF;
 	 text-shadow: 3px 2px 3px #000000;
-	 text-align: center;
 }
 
 .contactcontainer{
@@ -1065,7 +1058,7 @@ header{
 
 .fill{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	width: 80%;
@@ -1077,6 +1070,7 @@ header{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin-right: 20px;
 	width: 100%;
 }
 
@@ -1128,7 +1122,7 @@ header{
 
 #foot{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	height: 12vh;
@@ -1138,14 +1132,14 @@ header{
 #foottext{
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: 50%;
 	padding-left: 10px;
-	justify-content: center;
+	justify-content: initial;
 }
 
 #footlogo{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	flex-direction: row;
 	list-style: none;
 	width: 50%;
